@@ -23,7 +23,7 @@ const Footer = ({ className = 'custom-class' }) => {
           <div className='w-full flex items-start justify-around p-4'>
             <div className='w-1/3 flex flex-col items-center'>
               <h3 className='text-lg font-medium text-white'>Esquema</h3>
-              <div className='flex justify-around items-center mt-2 w-full'>
+              <div className='flex flex-col md:flex-row md:justify-around md:items-center mt-2 w-full'>
                 <Link to='/'><p className='text-sm font-light cursor-pointer text-zinc-300 hover:text-white duration-200'>Feed</p></Link>
                 <Link to='/mixmaster'><p className='text-sm font-normal cursor-pointer text-zinc-300 hover:text-white duration-200'>Mix & Master</p></Link>
                 <Link to='/projects'><p className='text-sm font-normal cursor-pointer text-zinc-300 hover:text-white duration-200'>Proyectos</p></Link>
